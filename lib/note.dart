@@ -2,19 +2,19 @@ class Note{
 
   String _item;
   int _quantity;
-  int _price;
+  int _rate;
   
-  Note(this._item,this._quantity,this._price);
+  Note(this._item,this._quantity,this._rate);
 
-  Note.one(this._item,this._quantity,this._price);
+  Note.one(this._item,this._quantity,this._rate);
 
-  String get item=>_item;
-  int get quantity=>_quantity;
-  int get price=>_price;
+  String get item =>_item;
+  int get quantity =>_quantity;
+  int get rate =>_rate;
 
   set item(String newItem){
-    if(newItem.length <= 100){
-      this._item=newItem;
+    if(1==1){
+      this._item = newItem;
     }
   }
 
@@ -24,9 +24,9 @@ class Note{
     }
   }
 
-  set price(int newPrice){
-    if(newRate <= 10000){
-      this._price=newPrice;
+  set rate(int newRate){
+    if(newRate<=10000){
+      this._rate=newRate;
     }
   }
 
@@ -35,14 +35,14 @@ class Note{
     var map=Map<String,dynamic>();
     map['item']=_item;
     map['quantity']=_quantity;
-    map['price']=_price;
+    map['rate']=_rate;
     return map;
   }
   
   Note.fromMapObject(Map<String,dynamic>map){
     this.item=map['item'];
     this.quantity=map['quantity'];
-    this.rate=map['price'];
+    this.rate=map['rate'];
   }
 
 }
