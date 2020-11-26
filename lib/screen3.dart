@@ -24,12 +24,7 @@ class Screen3a extends State<Screen3> {
   int scf = 0;
   int ppf = 0;
 
-  void goNextPage1(BuildContext context) {
-    //String string = "Classic Fries";
-    Navigator.push(context, new MaterialPageRoute(builder: (context) {
-      return Screen9();
-    }));
-  }
+  
 
   @override
   Widget build(BuildContext context) {
@@ -672,7 +667,9 @@ class Screen3a extends State<Screen3> {
                     setState(() {
                       if (clf > 0) {
                         _save();
-                        goNextPage1(context, true);
+                        Navigator.push(context, new MaterialPageRoute(builder: (context) {
+      return Screen9();
+    }));
                       }
                     });
                   }),
