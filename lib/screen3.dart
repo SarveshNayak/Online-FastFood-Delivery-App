@@ -683,7 +683,7 @@ class Screen3a extends State<Screen3> {
   void _save() async {
     moveToLastScreenFunction();
 
-    if (note.id != null) {
+    if (note.item != null) {
       await helper.updateNote(note);
     } else {
       await helper.insertNote(note);

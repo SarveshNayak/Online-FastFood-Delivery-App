@@ -9,7 +9,7 @@ import 'package:sqflite/sqflite.dart';
 class Screen9 extends StatefulWidget {
   final String str;
   final Note note;
-  Screen9(this.note, this.str) : super();
+  Screen9( this.note, this.str) : super();
 
   @override
   State<StatefulWidget> createState() {
