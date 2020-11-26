@@ -9,7 +9,7 @@ import 'package:sqflite/sqflite.dart';
 class Screen9 extends StatefulWidget {
   final String str;
   final Note note;
-  Screen9( this.note, this.str) : super();
+  Screen9(this.note, this.str) : super();
 
   @override
   State<StatefulWidget> createState() {
@@ -51,10 +51,6 @@ class Screen9a extends State<Screen9> {
                 borderRadius: BorderRadius.circular(20.00),
                 border: Border.all(width: 2, color: Colors.white),
                 color: Colors.grey,
-                //image: DecorationImage(
-                //image: AssetImage('images/fries.jpg'),
-                //fit: BoxFit.cover,
-                //)
               ),
               child: Align(
                 alignment: Alignment.center,
