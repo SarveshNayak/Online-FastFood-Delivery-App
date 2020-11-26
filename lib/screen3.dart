@@ -683,9 +683,9 @@ class Screen3a extends State<Screen3> {
     moveToLastScreenFunction();
 
     if (Note.item != null) {
-      await helper.updateNote(note);
+      await helper.updateNote(Note);
     } else {
-      await helper.insertNote(note);
+      await helper.insertNote(Note);
     }
   }
 }
