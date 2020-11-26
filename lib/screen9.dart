@@ -7,10 +7,10 @@ import 'package:wdl_project/database_helper.dart';
 import 'package:sqflite/sqflite.dart';
 
 class Screen9 extends StatefulWidget {
-    final String str;
-    final Note note
-    Screen9(this.note,this.str) : super();
-  
+  final String str;
+  final Note note;
+  Screen9(this.note, this.str) : super();
+
   @override
   State<StatefulWidget> createState() {
     return Screen9a();
@@ -21,14 +21,14 @@ class Screen9a extends State<Screen9> {
   Random billno = new Random(1000);
   int group = 1;
   int count1 = 0;
-  
+
   DatabaseHelper databaseHelper = DatabaseHelper();
   List<Note> noteList;
   int count = 0;
   @override
   Widget build(BuildContext context) {
-    if(noteList==null){
-      noteList=List<Note>();
+    if (noteList == null) {
+      noteList = List<Note>();
       updateListView();
     }
     return Scaffold(
@@ -229,16 +229,14 @@ class Screen9a extends State<Screen9> {
     ));
   }
 
-  void updateListView(){
-
-    final Future<Database>dbFuture=databaseHelper.initializeDatabase();
-    dbFuture.then((database){
-
-      Future<List<Note>>noteListFuture=databaseHelper.getNoteList();
-      noteListFuture.then((noteList){
-        setState((){
-          this.noteList=noteList;
-          this.count=noteList.length;
+  void updateListView() {
+    final Future<Database> dbFuture = databaseHelper.initializeDatabase();
+    dbFuture.then((database) {
+      Future<List<Note>> noteListFuture = databaseHelper.getNoteList();
+      noteListFuture.then((noteList) {
+        setState(() {
+          this.noteList = noteList;
+          this.count = noteList.length;
         });
       });
     });

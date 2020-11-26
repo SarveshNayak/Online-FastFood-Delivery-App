@@ -1,7 +1,7 @@
 import 'package:sqflite/sqflite.dart';
 import 'dart:async';
 import 'dart:io';
-import 'package:parh_provider/path_provider.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:wdl_project/note.dart';
 
 class DatabaseHelper {
@@ -77,12 +77,11 @@ class DatabaseHelper {
     return result;
   }
 
-  Future<List<Note>>getNoteList()async{
-
-    var noteMapList=await getNoteMapList();
-    int count=noteMapList.length;
-    List<Note>noteList=List<Note>();
-    for(int i=0;i<count;i++){
+  Future<List<Note>> getNoteList() async {
+    var noteMapList = await getNoteMapList();
+    int count = noteMapList.length;
+    List<Note> noteList = List<Note>();
+    for (int i = 0; i < count; i++) {
       noteList.add(Note.fromMapObject(noteMapList[i]));
     }
     return noteList;

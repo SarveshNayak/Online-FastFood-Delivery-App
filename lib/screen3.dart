@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'Screen9.dart';
+import 'screen9.dart';
 
 import 'package:wdl_project/note.dart';
 import 'package:wdl_project/database_helper.dart';
@@ -8,7 +8,7 @@ import 'package:sqflite/sqflite.dart';
 
 class Screen3 extends StatefulWidget {
   DatabaseHelper databaseHelper = DatabaseHelper();
-  
+
   @override
   State<StatefulWidget> createState() {
     return Screen3a();
@@ -672,7 +672,7 @@ class Screen3a extends State<Screen3> {
                     setState(() {
                       if (clf > 0) {
                         _save();
-                        goNextPage1(context,true);
+                        goNextPage1(context, true);
                       }
                     });
                   }),
@@ -683,12 +683,12 @@ class Screen3a extends State<Screen3> {
     ));
   }
 
-  void _save()async{
+  void _save() async {
     moveToLastScreenFunction();
 
-    if(note.id!=null){
+    if (note.id != null) {
       await helper.updateNote(note);
-    }else{
+    } else {
       await helper.insertNote(note);
     }
   }

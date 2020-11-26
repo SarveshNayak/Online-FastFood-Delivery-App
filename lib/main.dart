@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Screen2.dart';
+import 'screen2.dart';
 
 void main() {
   runApp(MaterialApp(debugShowCheckedModeBanner: false, home: Screen1()));
