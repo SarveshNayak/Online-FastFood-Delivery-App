@@ -24,8 +24,6 @@ class Screen3a extends State<Screen3> {
   int scf = 0;
   int ppf = 0;
 
-  
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -667,9 +665,10 @@ class Screen3a extends State<Screen3> {
                     setState(() {
                       if (clf > 0) {
                         _save();
-                        Navigator.push(context, new MaterialPageRoute(builder: (context) {
-      return Screen9();
-    }));
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9();
+                        }));
                       }
                     });
                   }),
@@ -683,7 +682,7 @@ class Screen3a extends State<Screen3> {
   void _save() async {
     moveToLastScreenFunction();
 
-    if (note.item != null) {
+    if (Note.item != null) {
       await helper.updateNote(note);
     } else {
       await helper.insertNote(note);
