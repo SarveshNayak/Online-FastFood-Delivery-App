@@ -227,18 +227,18 @@ class Screen9a extends State<Screen9> {
     ));
   }
 
-  void updateListView() {
-    final Future<Database> dbFuture = databaseHelper.initializeDatabase();
-    dbFuture.then((database) {
-      Future<List<Note>> noteListFuture = databaseHelper.getNoteList();
-      noteListFuture.then((noteList) {
-        setState(() {
-          this.noteList = noteList;
-          this.count = noteList.length;
-        });
-      });
-    });
-  }
+  // void updateListView() {
+  //   final Future<Database> dbFuture = databaseHelper.initializeDatabase();
+  //   dbFuture.then((database) {
+  //     Future<List<Note>> noteListFuture = databaseHelper.getNoteList();
+  //     noteListFuture.then((noteList) {
+  //       setState(() {
+  //         this.noteList = noteList;
+  //         this.count = noteList.length;
+  //       });
+  //     });
+  //   });
+  // }
 
   ListView getNoteListView() {
     return ListView.builder(
