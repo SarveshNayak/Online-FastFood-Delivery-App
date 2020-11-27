@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'dart:async';
 import 'screen9.dart';
 
 import 'package:wdl_project/note.dart';
@@ -24,6 +24,7 @@ class Screen3a extends State<Screen3> {
   int scf = 0;
   int ppf = 0;
 
+  DatabaseHelper helper = DatabaseHelper();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -664,7 +665,7 @@ class Screen3a extends State<Screen3> {
                   onPressed: () {
                     setState(() {
                       if (clf > 0) {
-                        _save();
+                        //_save();
                         String user = "Classic Fries";
                         int age = 70;
                         Navigator.push(context,
@@ -681,13 +682,13 @@ class Screen3a extends State<Screen3> {
     ));
   }
 
-  void _save() async {
-    moveToLastScreenFunction();
+//   void _save() async {
+//     moveToLastScreenFunction();
 
-    if (Note.item != null) {
-      await helper.updateNote(Note);
-    } else {
-      await helper.insertNote(Note);
-    }
-  }
-}
+//     if (note.item != null) {
+//       await helper.updateNote(note);
+//     } else {
+//       await helper.insertNote(note);
+//     }
+//   }
+ }
