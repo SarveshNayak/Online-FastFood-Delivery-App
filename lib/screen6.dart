@@ -740,11 +740,12 @@ class Screen6a extends State<Screen6> {
                         ),
                         onPressed: () {
                           setState(() {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => Screen9(),
-                                ));
+                            String user = "sarvesh";
+                            int age = 20;
+                            Navigator.push(context,
+                                new MaterialPageRoute(builder: (context) {
+                              return Screen9(user, age);
+                            }));
                           });
                         }),
                   ),
