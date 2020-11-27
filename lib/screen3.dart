@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'screen9.dart';
+import 'screen2.dart';
 
 // import 'package:wdl_project/note.dart';
 // import 'package:wdl_project/database_helper.dart';
 // import 'package:sqflite/sqflite.dart';
 
 class Screen3 extends StatefulWidget {
- // DatabaseHelper databaseHelper = DatabaseHelper();
+  // DatabaseHelper databaseHelper = DatabaseHelper();
 
   @override
   State<StatefulWidget> createState() {
@@ -641,9 +642,10 @@ class Screen3a extends State<Screen3> {
                   ),
                   onPressed: () {
                     setState(() {
-                      Navigator.pop(
-                        context,
-                      );
+                      Navigator.push(context,
+                          new MaterialPageRoute(builder: (context) {
+                        return Screen2();
+                      }));
                     });
                   }),
             ),
@@ -670,7 +672,61 @@ class Screen3a extends State<Screen3> {
                         int age = 70;
                         Navigator.push(context,
                             new MaterialPageRoute(builder: (context) {
-                          return Screen9(user, age);
+                          return Screen9(user, age, clf);
+                        }));
+                      }
+                      if (chf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, chf);
+                        }));
+                      }
+                      if (ccf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, ccf);
+                        }));
+                      }
+                      if (mcf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, mcf);
+                        }));
+                      }
+                      if (bcf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, bcf);
+                        }));
+                      }
+                      if (scf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, scf);
+                        }));
+                      }
+                      if (ppf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, ppf);
                         }));
                       }
                     });
@@ -691,4 +747,4 @@ class Screen3a extends State<Screen3> {
 //       await helper.insertNote(note);
 //     }
 //   }
- }
+}

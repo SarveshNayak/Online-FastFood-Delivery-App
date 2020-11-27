@@ -740,12 +740,77 @@ class Screen6a extends State<Screen6> {
                         ),
                         onPressed: () {
                           setState(() {
-                            String user = "sarvesh";
-                            int age = 20;
-                            Navigator.push(context,
-                                new MaterialPageRoute(builder: (context) {
-                              return Screen9(user, age);
-                            }));
+                            if (vcs > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vcs);
+                        }));
+                      }
+                      if (vms > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vms);
+                        }));
+                      }
+                      if (vcms > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vcms);
+                        }));
+                      }
+                      if (vts > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vts);
+                        }));
+                      }
+                      if (vpts > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vpts);
+                        }));
+                      }
+                      if (vcpts > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vcpts);
+                        }));
+                      }
+                      if (vchs > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vchs);
+                        }));
+                      }
+                      if(vchms>0){
+                        String user="Classic Fries";
+                        int age=70;
+                        Navigator.push(context,
+                        new MaterialPageRoute(builder:(context){
+                          return Screen9(user,age,vchms);
+                        }));
+                      }
                           });
                         }),
                   ),

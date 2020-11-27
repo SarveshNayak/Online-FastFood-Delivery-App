@@ -9,12 +9,13 @@ import 'package:sqflite/sqflite.dart';
 class Screen9 extends StatefulWidget {
   final String user;
   final int age;
+  final int clf;
   //final Note note;
-  Screen9(this.user, this.age);
+  Screen9(this.user, this.age, this.clf);
 
   @override
   State<StatefulWidget> createState() {
-    return Screen9a(user,age);
+    return Screen9a();
   }
 }
 
@@ -22,11 +23,9 @@ class Screen9a extends State<Screen9> {
   Random billno = new Random(1000);
   int group = 1;
   int count1 = 0;
-  String user1=user;
-  int age1=age;
 
   DatabaseHelper databaseHelper = DatabaseHelper();
-  List<Note> noteList;
+  //List<Note> noteList;
   int count = 0;
   @override
   Widget build(BuildContext context) {
@@ -93,17 +92,18 @@ class Screen9a extends State<Screen9> {
                         fontFamily: 'RobotoCondensed',
                         fontWeight: FontWeight.w700),
                   ),
-                  ListView getNoteListView() {
-                    return ListView.builder(
-                      itemCount: count,
-                      itemBuilder: (BuildContext context, int position) {
-                        return Card(
-                           color: Colors.transparent,
-                           child: Text(user1),
-                        );
-                      },
-                    );
-                  }
+                  getListView(),
+                  // ListView getNoteListView() {
+                  //   return ListView.builder(
+                  //     itemCount: count,
+                  //     itemBuilder: (BuildContext context, int position) {
+                  //       return Card(
+                  //          color: Colors.transparent,
+                  //          child: Text(user1),
+                  //       );
+                  //     },
+                  //   );
+                  // }
                 ],
               ),
             ),
@@ -133,7 +133,7 @@ class Screen9a extends State<Screen9> {
                       child: Column(children: [
                     Row(children: [
                       Container(
-                        width: 10,
+                        width: 50,
                       ),
                       Text(
                         "Debit Card",
@@ -239,6 +239,19 @@ class Screen9a extends State<Screen9> {
     ));
   }
 
+  Widget getListView() {
+    var listView = ListView(
+      children: <Widget>[
+        ListTile(
+          leading: Text("data"),
+          title: Text("data"),
+          trailing: Text("data"),
+        )
+      ],
+    );
+    return listView;
+  }
+
   // void updateListView() {
   //   final Future<Database> dbFuture = databaseHelper.initializeDatabase();
   //   dbFuture.then((database) {
@@ -252,5 +265,4 @@ class Screen9a extends State<Screen9> {
   //   });
   // }
 
-  
 }

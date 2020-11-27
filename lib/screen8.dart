@@ -658,12 +658,69 @@ class Screen8a extends State<Screen8> {
                   ),
                   onPressed: () {
                     setState(() {
-                      String user = "sarvesh";
-                      int age = 20;
-                      Navigator.push(context,
-                          new MaterialPageRoute(builder: (context) {
-                        return Screen9(user, age);
-                      }));
+                      if (vf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vf);
+                        }));
+                      }
+                      if (vcf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vcf);
+                        }));
+                      }
+                      if (vpf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vpf);
+                        }));
+                      }
+                      if (vmf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vmf);
+                        }));
+                      }
+                      if (vcpf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vcpf);
+                        }));
+                      }
+                      if (vpcf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vpcf);
+                        }));
+                      }
+                      if (vmcf > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, vmcf);
+                        }));
+                      }
                     });
                   }),
             ),

@@ -498,12 +498,52 @@ class Screen7a extends State<Screen7> {
                   ),
                   onPressed: () {
                     setState(() {
-                      String user = "sarvesh";
-                      int age = 20;
-                      Navigator.push(context,
-                          new MaterialPageRoute(builder: (context) {
-                        return Screen9(user, age);
-                      }));
+                      if (cmn > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, cmn);
+                        }));
+                      }
+                      if (tcn > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, tcn);
+                        }));
+                      }
+                      if (spn > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, spn);
+                        }));
+                      }
+                      if (ppsn > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, ppsn);
+                        }));
+                      }
+                      if (cln > 0) {
+                        //_save();
+                        String user = "Classic Fries";
+                        int age = 70;
+                        Navigator.push(context,
+                            new MaterialPageRoute(builder: (context) {
+                          return Screen9(user, age, cln);
+                        }));
+                      }
+                      
                     });
                   }),
             ),
