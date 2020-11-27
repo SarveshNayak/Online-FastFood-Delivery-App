@@ -83,6 +83,7 @@ class DatabaseHelper {
     return result;
   }
 
+//get the 'map list' [List<Map>] and convert it to 'Note List' [List<Note>]
   Future<List<Note>> getNoteList() async {
     var noteMapList = await getNoteMapList();
     int count = noteMapList.length;
