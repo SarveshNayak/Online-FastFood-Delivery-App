@@ -665,9 +665,11 @@ class Screen3a extends State<Screen3> {
                     setState(() {
                       if (clf > 0) {
                         _save();
+                        String user = "Classic Fries";
+                        int age = 70;
                         Navigator.push(context,
                             new MaterialPageRoute(builder: (context) {
-                          return Screen9();
+                          return Screen9(user, age);
                         }));
                       }
                     });
