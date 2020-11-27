@@ -7,7 +7,7 @@ import 'screen9.dart';
 // import 'package:sqflite/sqflite.dart';
 
 class Screen3 extends StatefulWidget {
-  DatabaseHelper databaseHelper = DatabaseHelper();
+ // DatabaseHelper databaseHelper = DatabaseHelper();
 
   @override
   State<StatefulWidget> createState() {
@@ -24,7 +24,7 @@ class Screen3a extends State<Screen3> {
   int scf = 0;
   int ppf = 0;
 
-  DatabaseHelper helper = DatabaseHelper();
+  //DatabaseHelper helper = DatabaseHelper();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
