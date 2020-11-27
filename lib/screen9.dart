@@ -7,9 +7,10 @@ import 'package:wdl_project/database_helper.dart';
 import 'package:sqflite/sqflite.dart';
 
 class Screen9 extends StatefulWidget {
-  final String str;
-  final Note note;
-  Screen9(this.note, this.str) : super();
+  final String user;
+  final int age;
+  //final Note note;
+  Screen9(this.user, this.age);
 
   @override
   State<StatefulWidget> createState() {
@@ -31,6 +32,7 @@ class Screen9a extends State<Screen9> {
       noteList = List<Note>();
       updateListView();
     }
+    //final ScreenArguments args = ModalRoute.of(context).setting.arguments;
     return Scaffold(
         body: Container(
       width: 1500,
@@ -244,7 +246,7 @@ class Screen9a extends State<Screen9> {
       itemBuilder: (BuildContext context, int position) {
         return Card(
           color: Colors.transparent,
-          child: Text('Dummy Title'),
+          child: Text(widget.user),
         );
       },
     );
