@@ -42,6 +42,7 @@ class DatabaseHelper {
         'CREATE TABLE $noteTable($colItem TEXT, $colQuantity INTEGER $colRate INTEGER)');
   }
 
+//fetch operation:get all object from database
   Future<List<Map<String, dynamic>>> getNoteMapList() async {
     Database db = await this.database;
 
@@ -50,18 +51,22 @@ class DatabaseHelper {
     return result;
   }
 
+//insert operation:insert a note object to database
   Future<int> insertNote(Note note) async {
     Database db = await this.database;
     var result = await db.insert(noteTable, note.toMap());
     return result;
   }
 
+//update operation:update a note object and save it to database
   Future<int> updateNote(Note note) async {
     var db = await this.database;
     var result = await db.update(noteTable, note.toMap(),
         where: '$colItem=?', whereArgs: [note.item]);
+    return result;
   }
 
+//delete operation:delete a note object from database
   Future<int> deleteNote(int item) async {
     var db = await this.database;
     int result =
@@ -69,6 +74,7 @@ class DatabaseHelper {
     return result;
   }
 
+//get number of note in database
   Future<int> getCount() async {
     Database db = await this.database;
     List<Map<String, dynamic>> x =
