@@ -14,7 +14,7 @@ class Screen9 extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    return Screen9a();
+    return Screen9a(user,age);
   }
 }
 
@@ -22,16 +22,18 @@ class Screen9a extends State<Screen9> {
   Random billno = new Random(1000);
   int group = 1;
   int count1 = 0;
+  String user1=user;
+  int age1=age;
 
   DatabaseHelper databaseHelper = DatabaseHelper();
   List<Note> noteList;
   int count = 0;
   @override
   Widget build(BuildContext context) {
-    if (noteList == null) {
-      noteList = List<Note>();
-      updateListView();
-    }
+    // if (noteList == null) {
+    //   noteList = List<Note>();
+    //   updateListView();
+    // }
     //final ScreenArguments args = ModalRoute.of(context).setting.arguments;
     return Scaffold(
         body: Container(
@@ -91,7 +93,17 @@ class Screen9a extends State<Screen9> {
                         fontFamily: 'RobotoCondensed',
                         fontWeight: FontWeight.w700),
                   ),
-                  getNoteListView(),
+                  ListView getNoteListView() {
+                    return ListView.builder(
+                      itemCount: count,
+                      itemBuilder: (BuildContext context, int position) {
+                        return Card(
+                           color: Colors.transparent,
+                           child: Text(user1),
+                        );
+                      },
+                    );
+                  }
                 ],
               ),
             ),
@@ -240,15 +252,5 @@ class Screen9a extends State<Screen9> {
   //   });
   // }
 
-  ListView getNoteListView() {
-    return ListView.builder(
-      itemCount: count,
-      itemBuilder: (BuildContext context, int position) {
-        return Card(
-          color: Colors.transparent,
-          child: Text(widget.user),
-        );
-      },
-    );
-  }
+  
 }
