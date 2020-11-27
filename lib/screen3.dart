@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'screen9.dart';
 
-import 'package:wdl_project/note.dart';
-import 'package:wdl_project/database_helper.dart';
-import 'package:sqflite/sqflite.dart';
+// import 'package:wdl_project/note.dart';
+// import 'package:wdl_project/database_helper.dart';
+// import 'package:sqflite/sqflite.dart';
 
 class Screen3 extends StatefulWidget {
   DatabaseHelper databaseHelper = DatabaseHelper();
