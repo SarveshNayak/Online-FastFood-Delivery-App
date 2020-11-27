@@ -20,4 +20,16 @@ class Screen10a extends State<Screen10> {
         image: AssetImage('images/pic1.jpg'),
         fit: BoxFit.cover,
       )),
-      child: Container()));}}
+      child: Container(
+        child:Column(
+          children:[
+            Container(height:50),
+            Text("Thanks for ordering from the",style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 50,)),
+            Text("FAST FOOD FUSION",style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 50,)),
+          ]
+        )
+      )));}}
