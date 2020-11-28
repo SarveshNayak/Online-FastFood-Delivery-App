@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'screen9.dart';
-import 'screen2.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter/services.dart';
 
 // import 'package:wdl_project/note.dart';
 // import 'package:wdl_project/database_helper.dart';
@@ -17,7 +18,9 @@ class Screen3 extends StatefulWidget {
 }
 
 class Screen3a extends State<Screen3> {
+  int clf1;
   int clf = 0;
+  int data;
   int chf = 0;
   int ccf = 0;
   int mcf = 0;
@@ -27,7 +30,31 @@ class Screen3a extends State<Screen3> {
 
   //DatabaseHelper helper = DatabaseHelper();
   @override
+  void initState() {
+    super.initState();
+    
+  }
+
+  Future<bool> saveData() async {
+    SharedPreferences preferences = await SharedPreferences.getInstance();
+    return await preferences.setInt(clf);
+  }
+
+  Future<int> loadData() async {
+    SharedPreferences preferences = await SharedPreferences.getInstance();
+    return preferences.getInt(clf);
+  }
+
+  setData(){
+    loadData().then((value){
+      setState(() {
+        data=value;
+      });
+    })
+  }
+  @override
   Widget build(BuildContext context) {
+    //clf = clf1;
     return Scaffold(
         body: Container(
       width: 1500,
@@ -117,6 +144,7 @@ class Screen3a extends State<Screen3> {
                             if (clf > 0) {
                               clf--;
                             }
+                            saveData();
                           });
                         })),
                 Container(width: 10),
@@ -141,11 +169,15 @@ class Screen3a extends State<Screen3> {
                         ),
                         onPressed: () {
                           setState(() {
+                            // if (clf == null) {
+                            //   clf = 0;
+                            // }
                             clf++;
+                            saveData();
                           });
                         })),
                 Container(width: 15),
-                Text("$clf",
+                Text(classicFries(clf),
                     style: TextStyle(color: Colors.black, fontSize: 30))
               ])),
               Container(height: 10),
@@ -642,10 +674,10 @@ class Screen3a extends State<Screen3> {
                   ),
                   onPressed: () {
                     setState(() {
-                      Navigator.push(context,
-                          new MaterialPageRoute(builder: (context) {
-                        return Screen2();
-                      }));
+                      clf1 = clf;
+                      Navigator.pop(
+                        context,
+                      );
                     });
                   }),
             ),
@@ -736,6 +768,17 @@ class Screen3a extends State<Screen3> {
         )
       ])),
     ));
+  }
+
+  String classicFries(int clf) {
+    String c = clf.toString();
+    String result;
+    if (c == "null") {
+      result = "0";
+    } else {
+      result = "$c";
+    }
+    return result;
   }
 
 //   void _save() async {
