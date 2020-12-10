@@ -25,13 +25,13 @@ class Screen2a extends State<Screen2> {
             )),
             child: Container(
                 child: Column(children: [
-              Container(height: 35),
+              Container(height: MediaQuery.of(context).size.height * 0.08),
               Row(children: [
-                Container(width: 100),
+                Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
                   padding: EdgeInsets.all(10.00),
-                  width: 350.00,
-                  height: 280.00,
+                  width: MediaQuery.of(context).size.height * 0.22,
+                  height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30.00),
                       border: Border.all(width: 2, color: Colors.white),
@@ -46,7 +46,7 @@ class Screen2a extends State<Screen2> {
                       color: Colors.transparent,
                       child: Text(
                         "Fries",
-                        style: TextStyle(fontSize: 70.00, color: Colors.white),
+                        style: TextStyle(fontSize: 27.00, color: Colors.white),
                       ),
                       onPressed: () {
                         setState(() {
@@ -58,11 +58,11 @@ class Screen2a extends State<Screen2> {
                         });
                       }),
                 ),
-                Container(width: 50),
+                Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
                   padding: EdgeInsets.all(10.00),
-                  width: 350.00,
-                  height: 280.00,
+                  width: MediaQuery.of(context).size.height * 0.22,
+                  height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30.00),
                       border: Border.all(width: 2, color: Colors.white),
@@ -77,7 +77,7 @@ class Screen2a extends State<Screen2> {
                       color: Colors.transparent,
                       child: Text(
                         "Burger",
-                        style: TextStyle(fontSize: 70.00, color: Colors.white),
+                        style: TextStyle(fontSize: 27.00, color: Colors.white),
                       ),
                       onPressed: () {
                         setState(() {
@@ -89,11 +89,14 @@ class Screen2a extends State<Screen2> {
                         });
                       }),
                 ),
-                Container(width: 50),
+              ]),
+              Container(height: MediaQuery.of(context).size.height * 0.08),
+              Row(children: [
+                Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
                   padding: EdgeInsets.all(10.00),
-                  width: 350.00,
-                  height: 280.00,
+                  width: MediaQuery.of(context).size.height * 0.22,
+                  height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30.00),
                       border: Border.all(width: 2, color: Colors.white),
@@ -108,7 +111,7 @@ class Screen2a extends State<Screen2> {
                       color: Colors.transparent,
                       child: Text(
                         "Pasta",
-                        style: TextStyle(fontSize: 70.00, color: Colors.white),
+                        style: TextStyle(fontSize: 27.00, color: Colors.white),
                       ),
                       onPressed: () {
                         setState(() {
@@ -120,14 +123,11 @@ class Screen2a extends State<Screen2> {
                         });
                       }),
                 ),
-              ]),
-              Container(height: 30),
-              Row(children: [
-                Container(width: 100),
+                Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
                   padding: EdgeInsets.all(10.00),
-                  width: 350.00,
-                  height: 280.00,
+                  width: MediaQuery.of(context).size.height * 0.22,
+                  height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30.00),
                       border: Border.all(width: 2, color: Colors.white),
@@ -142,7 +142,7 @@ class Screen2a extends State<Screen2> {
                       color: Colors.transparent,
                       child: Text(
                         "Sandwich",
-                        style: TextStyle(fontSize: 70.00, color: Colors.white),
+                        style: TextStyle(fontSize: 27.00, color: Colors.white),
                       ),
                       onPressed: () {
                         setState(() {
@@ -154,11 +154,14 @@ class Screen2a extends State<Screen2> {
                         });
                       }),
                 ),
-                Container(width: 50),
+              ]),
+              Container(height: MediaQuery.of(context).size.height * 0.08),
+              Row(children: [
+                Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
                   padding: EdgeInsets.all(10.00),
-                  width: 350.00,
-                  height: 280.00,
+                  width: MediaQuery.of(context).size.height * 0.22,
+                  height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30.00),
                       border: Border.all(width: 2, color: Colors.white),
@@ -173,7 +176,7 @@ class Screen2a extends State<Screen2> {
                       color: Colors.transparent,
                       child: Text(
                         "Nachos",
-                        style: TextStyle(fontSize: 70.00, color: Colors.white),
+                        style: TextStyle(fontSize: 27.00, color: Colors.white),
                       ),
                       onPressed: () {
                         setState(() {
@@ -185,11 +188,11 @@ class Screen2a extends State<Screen2> {
                         });
                       }),
                 ),
-                Container(width: 50),
+                Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
                   padding: EdgeInsets.all(10.00),
-                  width: 350.00,
-                  height: 280.00,
+                  width: MediaQuery.of(context).size.height * 0.22,
+                  height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30.00),
                       border: Border.all(width: 2, color: Colors.white),
@@ -204,7 +207,7 @@ class Screen2a extends State<Screen2> {
                       color: Colors.transparent,
                       child: Text(
                         "Frankies",
-                        style: TextStyle(fontSize: 70.00, color: Colors.white),
+                        style: TextStyle(fontSize: 27.00, color: Colors.white),
                       ),
                       onPressed: () {
                         setState(() {
