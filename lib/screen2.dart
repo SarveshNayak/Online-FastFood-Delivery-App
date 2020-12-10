@@ -29,7 +29,6 @@ class Screen2a extends State<Screen2> {
               Row(children: [
                 Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
-                  padding: EdgeInsets.all(10.00),
                   width: MediaQuery.of(context).size.height * 0.22,
                   height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
@@ -60,7 +59,6 @@ class Screen2a extends State<Screen2> {
                 ),
                 Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
-                  padding: EdgeInsets.all(10.00),
                   width: MediaQuery.of(context).size.height * 0.22,
                   height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
@@ -94,7 +92,6 @@ class Screen2a extends State<Screen2> {
               Row(children: [
                 Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
-                  padding: EdgeInsets.all(10.00),
                   width: MediaQuery.of(context).size.height * 0.22,
                   height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
@@ -125,7 +122,6 @@ class Screen2a extends State<Screen2> {
                 ),
                 Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
-                  padding: EdgeInsets.all(10.00),
                   width: MediaQuery.of(context).size.height * 0.22,
                   height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
@@ -159,7 +155,6 @@ class Screen2a extends State<Screen2> {
               Row(children: [
                 Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
-                  padding: EdgeInsets.all(10.00),
                   width: MediaQuery.of(context).size.height * 0.22,
                   height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
@@ -190,7 +185,6 @@ class Screen2a extends State<Screen2> {
                 ),
                 Container(width: MediaQuery.of(context).size.width * 0.03),
                 Container(
-                  padding: EdgeInsets.all(10.00),
                   width: MediaQuery.of(context).size.height * 0.22,
                   height: MediaQuery.of(context).size.height * 0.22,
                   decoration: BoxDecoration(
