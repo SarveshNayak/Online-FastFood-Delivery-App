@@ -24,10 +24,16 @@ class Screen2a extends State<Screen2> {
     return Scaffold(
         body: Container(
             decoration: BoxDecoration(
-                image: DecorationImage(
-              image: AssetImage('images/pic1.jpg'),
-              fit: BoxFit.cover,
-            )),
+                gradient: LinearGradient(
+              colors: [Color(0x93a5cf), Color(0xfffe4efe9)],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            )
+                //     image: DecorationImage(
+                //   image: AssetImage('images/edit pic.jpg'),
+                //   fit: BoxFit.cover,
+                // )
+                ),
             child: Container(
                 child: Column(children: [
               Container(height: MediaQuery.of(context).size.height * gap),
@@ -38,7 +44,7 @@ class Screen2a extends State<Screen2> {
                     borderRadius: BorderRadius.circular(20.00),
                     border: Border.all(width: 2, color: Colors.white),
                     image: DecorationImage(
-                      image: AssetImage('images/fries.jpg'),
+                      image: AssetImage('images/editpic.png'),
                       fit: BoxFit.cover,
                     )),
                 child: RaisedButton(
@@ -48,7 +54,11 @@ class Screen2a extends State<Screen2> {
                     color: Colors.transparent,
                     child: Text(
                       "Fries",
-                      style: TextStyle(fontSize: 45.00, color: Colors.white),
+                      style: TextStyle(
+                          fontSize: 45.00,
+                          color: Colors.white,
+                          fontFamily: 'YuseiMagic',
+                          fontWeight: FontWeight.w100),
                     ),
                     onPressed: () {
                       setState(() {
@@ -67,10 +77,23 @@ class Screen2a extends State<Screen2> {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20.00),
                     border: Border.all(width: 2, color: Colors.white),
-                    image: DecorationImage(
-                      image: AssetImage('images/burger.jpg'),
-                      fit: BoxFit.cover,
-                    )),
+                    gradient: LinearGradient(
+                      colors: [
+                        Colors.yellow,
+                        Colors.red,
+                        Colors.brown,
+                        Colors.green,
+                        Colors.yellow,
+                      ],
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                    )
+                    // image: DecorationImage(
+                    //   image: AssetImage('images/editpic1.jpg'),
+                    //   fit: BoxFit.cover,
+                    // )
+
+                    ),
                 child: RaisedButton(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20.00),
@@ -78,7 +101,11 @@ class Screen2a extends State<Screen2> {
                     color: Colors.transparent,
                     child: Text(
                       "Burger",
-                      style: TextStyle(fontSize: 45.00, color: Colors.white),
+                      style: TextStyle(
+                          fontSize: 45.00,
+                          color: Colors.white,
+                          fontFamily: 'YuseiMagic',
+                          fontWeight: FontWeight.w100),
                     ),
                     onPressed: () {
                       setState(() {
@@ -98,7 +125,7 @@ class Screen2a extends State<Screen2> {
                     borderRadius: BorderRadius.circular(20.00),
                     border: Border.all(width: 2, color: Colors.white),
                     image: DecorationImage(
-                      image: AssetImage('images/pasta1.jpg'),
+                      image: AssetImage('images/editpic2.bmp'),
                       fit: BoxFit.cover,
                     )),
                 child: RaisedButton(
@@ -108,7 +135,11 @@ class Screen2a extends State<Screen2> {
                     color: Colors.transparent,
                     child: Text(
                       "Pasta",
-                      style: TextStyle(fontSize: 45.00, color: Colors.white),
+                      style: TextStyle(
+                          fontSize: 45.00,
+                          color: Colors.white,
+                          fontFamily: 'YuseiMagic',
+                          fontWeight: FontWeight.w100),
                     ),
                     onPressed: () {
                       setState(() {
@@ -138,7 +169,11 @@ class Screen2a extends State<Screen2> {
                     color: Colors.transparent,
                     child: Text(
                       "Sandwich",
-                      style: TextStyle(fontSize: 45.00, color: Colors.white),
+                      style: TextStyle(
+                          fontSize: 45.00,
+                          color: Colors.white,
+                          fontFamily: 'YuseiMagic',
+                          fontWeight: FontWeight.w100),
                     ),
                     onPressed: () {
                       setState(() {
@@ -168,7 +203,11 @@ class Screen2a extends State<Screen2> {
                     color: Colors.transparent,
                     child: Text(
                       "Nachos",
-                      style: TextStyle(fontSize: 45.00, color: Colors.white),
+                      style: TextStyle(
+                          fontSize: 45.00,
+                          color: Colors.white,
+                          fontFamily: 'YuseiMagic',
+                          fontWeight: FontWeight.w100),
                     ),
                     onPressed: () {
                       setState(() {
@@ -198,7 +237,11 @@ class Screen2a extends State<Screen2> {
                     color: Colors.transparent,
                     child: Text(
                       "Frankies",
-                      style: TextStyle(fontSize: 45.00, color: Colors.white),
+                      style: TextStyle(
+                          fontSize: 45.00,
+                          color: Colors.white,
+                          fontFamily: 'YuseiMagic',
+                          fontWeight: FontWeight.w100),
                     ),
                     onPressed: () {
                       setState(() {
