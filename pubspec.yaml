@@ -57,6 +57,15 @@ flutter:
     - images/pasta1.jpg
     - images/sandwich3.jpg
     - images/frankie.JPG
+    - images/edit pic.jpg
+    - images/editpic1.jpg
+    - images/editpic.png
+    - images/editpic2.bmp
+    - images/ps.png
+    - images/1.png
+    - images/OIP.JPEG
+    - images/Untitled-1.png
+    - images/backpic.JPG
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -79,7 +88,10 @@ flutter:
       fonts:
         - asset: fonts/RobotoCondensed-Bold.ttf
           weight: 700
-        
+    - family: YuseiMagic
+      fonts:
+        - asset: fonts/YuseiMagic-Regular.ttf
+          weight: 700    
           
   #
   # For details regarding fonts from package dependencies,

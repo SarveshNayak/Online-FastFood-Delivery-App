@@ -14,245 +14,225 @@ class Screen2 extends StatefulWidget {
 }
 
 class Screen2a extends State<Screen2> {
-  double gap = 0.07;
+  double gap = 0.03;
   double btgap = 0.03;
   double conwidth = 0.9;
   double conheight = 0.12;
+  var color = Colors.black;
+  var color1 = Colors.blueGrey[50];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
-            decoration: BoxDecoration(
-                gradient: LinearGradient(
-              colors: [Color(0x93a5cf), Color(0xfffe4efe9)],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            )
-                //     image: DecorationImage(
-                //   image: AssetImage('images/edit pic.jpg'),
-                //   fit: BoxFit.cover,
-                // )
+        appBar: AppBar(
+          toolbarHeight: 60.00,
+          backgroundColor: Colors.blueGrey[200],
+          title: Text(
+            '  FAST FOOD FUSION',
+            style: TextStyle(
+                fontSize: 25.00,
+                color: color,
+                fontFamily: 'YuseiMagic',
+                fontWeight: FontWeight.w100),
+          ),
+        ),
+        body: ListView(children: [
+          Container(
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                image: AssetImage('images/backpic.JPG'),
+                fit: BoxFit.cover,
+              )),
+              child: Container(
+                  child: Column(children: [
+                Container(height: MediaQuery.of(context).size.height * gap),
+                Container(
+                  width: MediaQuery.of(context).size.width * conwidth,
+                  height: MediaQuery.of(context).size.height * conheight,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20.00),
+                    border: Border.all(width: 2, color: color),
+                  ),
+                  child: RaisedButton(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.00),
+                      ),
+                      color: Colors.blueGrey[50],
+                      child: Text(
+                        "Fries",
+                        style: TextStyle(
+                            fontSize: 45.00,
+                            color: color,
+                            fontFamily: 'YuseiMagic',
+                            fontWeight: FontWeight.w100),
+                      ),
+                      onPressed: () {
+                        setState(() {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Screen3(),
+                              ));
+                        });
+                      }),
                 ),
-            child: Container(
-                child: Column(children: [
-              Container(height: MediaQuery.of(context).size.height * gap),
-              Container(
-                width: MediaQuery.of(context).size.width * conwidth,
-                height: MediaQuery.of(context).size.height * conheight,
-                decoration: BoxDecoration(
+                Container(height: MediaQuery.of(context).size.height * btgap),
+                Container(
+                  width: MediaQuery.of(context).size.width * conwidth,
+                  height: MediaQuery.of(context).size.height * conheight,
+                  decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20.00),
-                    border: Border.all(width: 2, color: Colors.white),
-                    image: DecorationImage(
-                      image: AssetImage('images/editpic.png'),
-                      fit: BoxFit.cover,
-                    )),
-                child: RaisedButton(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20.00),
-                    ),
-                    color: Colors.transparent,
-                    child: Text(
-                      "Fries",
-                      style: TextStyle(
-                          fontSize: 45.00,
-                          color: Colors.white,
-                          fontFamily: 'YuseiMagic',
-                          fontWeight: FontWeight.w100),
-                    ),
-                    onPressed: () {
-                      setState(() {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Screen3(),
-                            ));
-                      });
-                    }),
-              ),
-              Container(height: MediaQuery.of(context).size.height * btgap),
-              Container(
-                width: MediaQuery.of(context).size.width * conwidth,
-                height: MediaQuery.of(context).size.height * conheight,
-                decoration: BoxDecoration(
+                    border: Border.all(width: 2, color: color),
+                  ),
+                  child: RaisedButton(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.00),
+                      ),
+                      color: color1,
+                      child: Text(
+                        "Burger",
+                        style: TextStyle(
+                            fontSize: 45.00,
+                            color: color,
+                            fontFamily: 'YuseiMagic',
+                            fontWeight: FontWeight.w100),
+                      ),
+                      onPressed: () {
+                        setState(() {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Screen4(),
+                              ));
+                        });
+                      }),
+                ),
+                Container(height: MediaQuery.of(context).size.height * btgap),
+                Container(
+                  width: MediaQuery.of(context).size.width * conwidth,
+                  height: MediaQuery.of(context).size.height * conheight,
+                  decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20.00),
-                    border: Border.all(width: 2, color: Colors.white),
-                    gradient: LinearGradient(
-                      colors: [
-                        Colors.yellow,
-                        Colors.red,
-                        Colors.brown,
-                        Colors.green,
-                        Colors.yellow,
-                      ],
-                      begin: Alignment.topCenter,
-                      end: Alignment.bottomCenter,
-                    )
-                    // image: DecorationImage(
-                    //   image: AssetImage('images/editpic1.jpg'),
-                    //   fit: BoxFit.cover,
-                    // )
-
-                    ),
-                child: RaisedButton(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20.00),
-                    ),
-                    color: Colors.transparent,
-                    child: Text(
-                      "Burger",
-                      style: TextStyle(
-                          fontSize: 45.00,
-                          color: Colors.white,
-                          fontFamily: 'YuseiMagic',
-                          fontWeight: FontWeight.w100),
-                    ),
-                    onPressed: () {
-                      setState(() {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Screen4(),
-                            ));
-                      });
-                    }),
-              ),
-              Container(height: MediaQuery.of(context).size.height * btgap),
-              Container(
-                width: MediaQuery.of(context).size.width * conwidth,
-                height: MediaQuery.of(context).size.height * conheight,
-                decoration: BoxDecoration(
+                    border: Border.all(width: 2, color: color),
+                  ),
+                  child: RaisedButton(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.00),
+                      ),
+                      color: color1,
+                      child: Text(
+                        "Pasta",
+                        style: TextStyle(
+                            fontSize: 45.00,
+                            color: color,
+                            fontFamily: 'YuseiMagic',
+                            fontWeight: FontWeight.w100),
+                      ),
+                      onPressed: () {
+                        setState(() {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Screen5(),
+                              ));
+                        });
+                      }),
+                ),
+                Container(height: MediaQuery.of(context).size.height * btgap),
+                Container(
+                  width: MediaQuery.of(context).size.width * conwidth,
+                  height: MediaQuery.of(context).size.height * conheight,
+                  decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20.00),
-                    border: Border.all(width: 2, color: Colors.white),
-                    image: DecorationImage(
-                      image: AssetImage('images/editpic2.bmp'),
-                      fit: BoxFit.cover,
-                    )),
-                child: RaisedButton(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20.00),
-                    ),
-                    color: Colors.transparent,
-                    child: Text(
-                      "Pasta",
-                      style: TextStyle(
-                          fontSize: 45.00,
-                          color: Colors.white,
-                          fontFamily: 'YuseiMagic',
-                          fontWeight: FontWeight.w100),
-                    ),
-                    onPressed: () {
-                      setState(() {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Screen5(),
-                            ));
-                      });
-                    }),
-              ),
-              Container(height: MediaQuery.of(context).size.height * btgap),
-              Container(
-                width: MediaQuery.of(context).size.width * conwidth,
-                height: MediaQuery.of(context).size.height * conheight,
-                decoration: BoxDecoration(
+                    border: Border.all(width: 2, color: color),
+                  ),
+                  child: RaisedButton(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.00),
+                      ),
+                      color: color1,
+                      child: Text(
+                        "Sandwich",
+                        style: TextStyle(
+                            fontSize: 45.00,
+                            color: color,
+                            fontFamily: 'YuseiMagic',
+                            fontWeight: FontWeight.w100),
+                      ),
+                      onPressed: () {
+                        setState(() {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Screen6(),
+                              ));
+                        });
+                      }),
+                ),
+                Container(height: MediaQuery.of(context).size.height * btgap),
+                Container(
+                  width: MediaQuery.of(context).size.width * conwidth,
+                  height: MediaQuery.of(context).size.height * conheight,
+                  decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20.00),
-                    border: Border.all(width: 2, color: Colors.white),
-                    image: DecorationImage(
-                      image: AssetImage('images/sandwich3.jpg'),
-                      fit: BoxFit.cover,
-                    )),
-                child: RaisedButton(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20.00),
-                    ),
-                    color: Colors.transparent,
-                    child: Text(
-                      "Sandwich",
-                      style: TextStyle(
-                          fontSize: 45.00,
-                          color: Colors.white,
-                          fontFamily: 'YuseiMagic',
-                          fontWeight: FontWeight.w100),
-                    ),
-                    onPressed: () {
-                      setState(() {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Screen6(),
-                            ));
-                      });
-                    }),
-              ),
-              Container(height: MediaQuery.of(context).size.height * btgap),
-              Container(
-                width: MediaQuery.of(context).size.width * conwidth,
-                height: MediaQuery.of(context).size.height * conheight,
-                decoration: BoxDecoration(
+                    border: Border.all(width: 2, color: color),
+                  ),
+                  child: RaisedButton(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.00),
+                      ),
+                      color: color1,
+                      child: Text(
+                        "Nachos",
+                        style: TextStyle(
+                            fontSize: 45.00,
+                            color: color,
+                            fontFamily: 'YuseiMagic',
+                            fontWeight: FontWeight.w100),
+                      ),
+                      onPressed: () {
+                        setState(() {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Screen7(),
+                              ));
+                        });
+                      }),
+                ),
+                Container(height: MediaQuery.of(context).size.height * btgap),
+                Container(
+                  width: MediaQuery.of(context).size.width * conwidth,
+                  height: MediaQuery.of(context).size.height * conheight,
+                  decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(20.00),
-                    border: Border.all(width: 2, color: Colors.white),
-                    image: DecorationImage(
-                      image: AssetImage('images/nachos.jpg'),
-                      fit: BoxFit.cover,
-                    )),
-                child: RaisedButton(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20.00),
-                    ),
-                    color: Colors.transparent,
-                    child: Text(
-                      "Nachos",
-                      style: TextStyle(
-                          fontSize: 45.00,
-                          color: Colors.white,
-                          fontFamily: 'YuseiMagic',
-                          fontWeight: FontWeight.w100),
-                    ),
-                    onPressed: () {
-                      setState(() {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Screen7(),
-                            ));
-                      });
-                    }),
-              ),
-              Container(height: MediaQuery.of(context).size.height * btgap),
-              Container(
-                width: MediaQuery.of(context).size.width * conwidth,
-                height: MediaQuery.of(context).size.height * conheight,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(20.00),
-                    border: Border.all(width: 2, color: Colors.white),
-                    image: DecorationImage(
-                      image: AssetImage('images/frankie.JPG'),
-                      fit: BoxFit.cover,
-                    )),
-                child: RaisedButton(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(20.00),
-                    ),
-                    color: Colors.transparent,
-                    child: Text(
-                      "Frankies",
-                      style: TextStyle(
-                          fontSize: 45.00,
-                          color: Colors.white,
-                          fontFamily: 'YuseiMagic',
-                          fontWeight: FontWeight.w100),
-                    ),
-                    onPressed: () {
-                      setState(() {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Screen8(),
-                            ));
-                      });
-                    }),
-              ),
-            ]))));
+                    border: Border.all(width: 2, color: color),
+                  ),
+                  child: RaisedButton(
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20.00),
+                      ),
+                      color: color1,
+                      child: Text(
+                        "Frankies",
+                        style: TextStyle(
+                            fontSize: 45.00,
+                            color: color,
+                            fontFamily: 'YuseiMagic',
+                            fontWeight: FontWeight.w100),
+                      ),
+                      onPressed: () {
+                        setState(() {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => Screen8(),
+                              ));
+                        });
+                      }),
+                ),
+                Container(height: MediaQuery.of(context).size.height * btgap),
+              ])))
+        ]));
   }
 }

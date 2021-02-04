@@ -28,16 +28,16 @@ class Screen1a extends State<Screen1> {
             child: Container(
                 height: MediaQuery.of(context).size.height * 1,
                 decoration: BoxDecoration(
-                    gradient: LinearGradient(
-                  colors: [Color(0x93a5cf), Color(0xfffe4efe9)],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                )
-                    // image: DecorationImage(
-                    //   image: AssetImage('images/ps.png'),
-                    //   fit: BoxFit.fitHeight,
-                    // ),
-                    ),
+                  //     gradient: LinearGradient(
+                  //   colors: [Color(0x93a5cf), Color(0xfffe4efe9)],
+                  //   begin: Alignment.topLeft,
+                  //   end: Alignment.bottomRight,
+                  // )
+                  image: DecorationImage(
+                    image: AssetImage('images/backpic.JPG'),
+                    fit: BoxFit.fitHeight,
+                  ),
+                ),
                 child: ListView(
                   children: [
                     Container(
@@ -52,7 +52,7 @@ class Screen1a extends State<Screen1> {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(20.0),
                               border: Border.all(width: 2, color: color1),
-                              color: Colors.transparent,
+                              color: Colors.blueGrey[50],
                             ),
                             child: Column(
                               children: [
