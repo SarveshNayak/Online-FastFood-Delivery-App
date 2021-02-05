@@ -31,7 +31,7 @@ class Screen2a extends State<Screen2> {
             '  FAST FOOD FUSION',
             style: TextStyle(
                 fontSize: 25.00,
-                color: color,
+                color: Colors.white,
                 fontFamily: 'YuseiMagic',
                 fontWeight: FontWeight.w100),
           ),
