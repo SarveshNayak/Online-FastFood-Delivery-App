@@ -595,13 +595,14 @@ class Screen3a extends State<Screen3> {
 
   void popUp(BuildContext context, String name) {
     var alertDialog = AlertDialog(
-      backgroundColor: Colors.green,
+      backgroundColor: color1,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
       title: Text("$name \nAdded To Cart",
           style: TextStyle(
-            color: color,
-            fontSize: 30,
-          )),
+              color: color,
+              fontSize: 30,
+              fontFamily: 'YuseiMagic',
+              fontWeight: FontWeight.w100)),
     );
     showDialog(
         context: context,
