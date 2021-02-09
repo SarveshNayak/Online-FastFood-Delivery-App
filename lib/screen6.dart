@@ -25,6 +25,18 @@ class Screen6a extends State<Screen6> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+          toolbarHeight: 60.00,
+          backgroundColor: Colors.blueGrey[200],
+          title: Text(
+            '  FAST FOOD FUSION',
+            style: TextStyle(
+                fontSize: 25.00,
+                color: Colors.white,
+                fontFamily: 'YuseiMagic',
+                fontWeight: FontWeight.w100),
+          ),
+        ),
         body: Container(
       width: 1500,
       decoration: BoxDecoration(

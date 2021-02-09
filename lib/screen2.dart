@@ -36,14 +36,14 @@ class Screen2a extends State<Screen2> {
                 fontWeight: FontWeight.w100),
           ),
         ),
-        body: ListView(children: [
-          Container(
-              decoration: BoxDecoration(
-                  image: DecorationImage(
-                image: AssetImage('images/backpic.JPG'),
-                fit: BoxFit.cover,
-              )),
-              child: Container(
+        body: Container(
+            decoration: BoxDecoration(
+                image: DecorationImage(
+              image: AssetImage('images/backpic.JPG'),
+              fit: BoxFit.cover,
+            )),
+            child: ListView(children: [
+              Container(
                   child: Column(children: [
                 Container(height: MediaQuery.of(context).size.height * gap),
                 Container(
@@ -232,7 +232,7 @@ class Screen2a extends State<Screen2> {
                       }),
                 ),
                 Container(height: MediaQuery.of(context).size.height * btgap),
-              ])))
-        ]));
+              ]))
+            ])));
   }
 }
