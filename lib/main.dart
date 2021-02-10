@@ -34,8 +34,8 @@ class Screen1a extends State<Screen1> {
                   //   end: Alignment.bottomRight,
                   // )
                   image: DecorationImage(
-                    image: AssetImage('images/backpic.JPG'),
-                    fit: BoxFit.fitHeight,
+                    image: AssetImage('images/back.JPG'),
+                    fit: BoxFit.cover,
                   ),
                 ),
                 child: ListView(

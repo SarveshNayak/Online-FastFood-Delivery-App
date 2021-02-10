@@ -38,7 +38,7 @@ class Screen7a extends State<Screen7> {
           width: 1500,
           decoration: BoxDecoration(
               image: DecorationImage(
-            image: AssetImage('images/backpic.JPG'),
+            image: AssetImage('images/back.JPG'),
             fit: BoxFit.cover,
           )),
           child: Container(

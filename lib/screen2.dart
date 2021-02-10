@@ -39,7 +39,7 @@ class Screen2a extends State<Screen2> {
         body: Container(
             decoration: BoxDecoration(
                 image: DecorationImage(
-              image: AssetImage('images/backpic.JPG'),
+              image: AssetImage('images/back.JPG'),
               fit: BoxFit.cover,
             )),
             child: ListView(children: [
