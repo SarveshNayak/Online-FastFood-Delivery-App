@@ -120,9 +120,12 @@ class Screen3a extends State<Screen3> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -167,9 +170,12 @@ class Screen3a extends State<Screen3> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -212,9 +218,12 @@ class Screen3a extends State<Screen3> {
                               border: Border.all(width: 2, color: color),
                               color: Colors.transparent,
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -268,9 +277,12 @@ class Screen3a extends State<Screen3> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child:ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -330,9 +342,12 @@ class Screen3a extends State<Screen3> {
                                 color: color,
                               ),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -388,9 +403,12 @@ class Screen3a extends State<Screen3> {
                                 color: color,
                               ),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -447,9 +465,12 @@ class Screen3a extends State<Screen3> {
                                 color: color,
                               ),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -486,10 +507,13 @@ class Screen3a extends State<Screen3> {
                       padding: EdgeInsets.all(10.00),
                       width: MediaQuery.of(context).size.width * 0.5,
                       height: MediaQuery.of(context).size.height * 0.1,
-                      child: RaisedButton(
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(30.00)),
-                          color: Colors.blueGrey[200],
+                      child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: Colors.blueGrey[200],
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(30.00),
+                                  ),
+                                ),
                           child: Text(
                             "CART",
                             style: TextStyle(

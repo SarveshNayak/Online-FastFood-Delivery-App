@@ -82,25 +82,21 @@ class Screen6a extends State<Screen6> {
                   Container(
                       child: Row(children: [
                     Container(width: MediaQuery.of(context).size.width * 0.03),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('Veg Cheese',
+                     Text('Veg Cheese',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
+                   
                     Container(width: MediaQuery.of(context).size.width * 0.15),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('70/-',
+                     Text('70/-',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
+                    
                     Container(width: MediaQuery.of(context).size.width * 0.07),
                     Container(
                         width: MediaQuery.of(context).size.width * 0.145,
@@ -147,25 +143,19 @@ class Screen6a extends State<Screen6> {
                   Container(
                       child: Row(children: [
                     Container(width: MediaQuery.of(context).size.width * 0.03),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('Veg Mayo',
+                     Text('Veg Mayo',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.22),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('70/-',
+                     Text('70/-',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.07),
                     Container(
                         width: MediaQuery.of(context).size.width * 0.145,
@@ -208,25 +198,19 @@ class Screen6a extends State<Screen6> {
                   Container(
                       child: Row(children: [
                     Container(width: MediaQuery.of(context).size.width * 0.03),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('Veg Cheese',
+                     Text('Veg Cheese',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.14),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('80/-',
+                    Text('80/-',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.07),
                     Container(
                         width: MediaQuery.of(context).size.width * 0.145,
@@ -269,25 +253,19 @@ class Screen6a extends State<Screen6> {
                   Container(
                       child: Row(children: [
                     Container(width: MediaQuery.of(context).size.width * 0.03),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('Veg Tandoori',
+                     Text('Veg Tandoori',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.105),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('80/-',
+                    Text('80/-',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
-                              fontWeight: FontWeight.w100)),
-                    ),
+                              fontWeight: FontWeight.w100)),          
                     Container(width: MediaQuery.of(context).size.width * 0.07),
                     Container(
                         width: MediaQuery.of(context).size.width * 0.145,
@@ -330,25 +308,19 @@ class Screen6a extends State<Screen6> {
                   Container(
                       child: Row(children: [
                     Container(width: MediaQuery.of(context).size.width * 0.03),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('Veg Paneer',
+                     Text('Veg Paneer',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.13),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('120/-',
+                    Text('120/-',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.07),
                     Container(
                         width: MediaQuery.of(context).size.width * 0.145,
@@ -391,25 +363,19 @@ class Screen6a extends State<Screen6> {
                   Container(
                       child: Row(children: [
                     Container(width: MediaQuery.of(context).size.width * 0.03),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('Veg Cheese',
+                     Text('Veg Cheese',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.12),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('125/-',
+                     Text('125/-',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.07),
                     Container(
                         width: MediaQuery.of(context).size.width * 0.145,
@@ -466,25 +432,19 @@ class Screen6a extends State<Screen6> {
                   Container(
                       child: Row(children: [
                     Container(width: MediaQuery.of(context).size.width * 0.03),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('Veg',
+                    Text('Veg',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.37),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('130/-',
+                     Text('130/-',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.07),
                     Container(
                         width: MediaQuery.of(context).size.width * 0.145,
@@ -540,25 +500,19 @@ class Screen6a extends State<Screen6> {
                   Container(
                       child: Row(children: [
                     Container(width: MediaQuery.of(context).size.width * 0.03),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('Veg Chilli',
+                    Text('Veg Chilli',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.185),
-                    Align(
-                      alignment: Alignment.center,
-                      child: Text('140/-',
+                     Text('140/-',
                           style: TextStyle(
                               color: color,
                               fontSize: 25,
                               fontFamily: 'YuseiMagic',
                               fontWeight: FontWeight.w100)),
-                    ),
                     Container(width: MediaQuery.of(context).size.width * 0.07),
                     Container(
                         width: MediaQuery.of(context).size.width * 0.145,

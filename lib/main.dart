@@ -28,11 +28,6 @@ class Screen1a extends State<Screen1> {
             child: Container(
                 height: MediaQuery.of(context).size.height * 1,
                 decoration: BoxDecoration(
-                  //     gradient: LinearGradient(
-                  //   colors: [Color(0x93a5cf), Color(0xfffe4efe9)],
-                  //   begin: Alignment.topLeft,
-                  //   end: Alignment.bottomRight,
-                  // )
                   image: DecorationImage(
                     image: AssetImage('images/back.JPG'),
                     fit: BoxFit.cover,
@@ -82,7 +77,6 @@ class Screen1a extends State<Screen1> {
                                 ),
                                 Text(
                                   "Enter your Name",
-                                  textAlign: TextAlign.left,
                                   style: TextStyle(
                                       color: color1,
                                       fontSize: 20.00,
@@ -142,7 +136,6 @@ class Screen1a extends State<Screen1> {
                                 ),
                                 Text(
                                   "Enter your Phone Number",
-                                  textAlign: TextAlign.left,
                                   style: TextStyle(
                                       color: color1,
                                       fontSize: 20.00,
@@ -201,7 +194,6 @@ class Screen1a extends State<Screen1> {
                                 ),
                                 Text(
                                   "Enter your Email Id",
-                                  textAlign: TextAlign.left,
                                   style: TextStyle(
                                       color: color1,
                                       fontSize: 20.00,
@@ -267,11 +259,14 @@ class Screen1a extends State<Screen1> {
                                       MediaQuery.of(context).size.width * 0.6,
                                   height:
                                       MediaQuery.of(context).size.height * 0.1,
-                                  child: RaisedButton(
-                                      shape: RoundedRectangleBorder(
+                                  child: ElevatedButton(
+                                      style: ElevatedButton.styleFrom(
+                                        primary: Colors.blueGrey[200],
+                                        shape: RoundedRectangleBorder(
                                           borderRadius:
-                                              BorderRadius.circular(30.00)),
-                                      color: Colors.blueGrey[300],
+                                              BorderRadius.circular(30.00),
+                                        ),
+                                      ),
                                       child: Text(
                                         "Click to continue",
                                         style: TextStyle(

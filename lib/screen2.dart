@@ -53,11 +53,13 @@ class Screen2a extends State<Screen2> {
                     borderRadius: BorderRadius.circular(20.00),
                     border: Border.all(width: 2, color: color),
                   ),
-                  child: RaisedButton(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.00),
+                  child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: color1,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20.00),
+                        ),
                       ),
-                      color: Colors.blueGrey[50],
                       child: Text(
                         "Fries",
                         style: TextStyle(
@@ -84,11 +86,13 @@ class Screen2a extends State<Screen2> {
                     borderRadius: BorderRadius.circular(20.00),
                     border: Border.all(width: 2, color: color),
                   ),
-                  child: RaisedButton(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.00),
+                  child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: color1,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20.00),
+                        ),
                       ),
-                      color: color1,
                       child: Text(
                         "Burger",
                         style: TextStyle(
@@ -115,11 +119,13 @@ class Screen2a extends State<Screen2> {
                     borderRadius: BorderRadius.circular(20.00),
                     border: Border.all(width: 2, color: color),
                   ),
-                  child: RaisedButton(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.00),
+                  child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: color1,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20.00),
+                        ),
                       ),
-                      color: color1,
                       child: Text(
                         "Pasta",
                         style: TextStyle(
@@ -146,11 +152,13 @@ class Screen2a extends State<Screen2> {
                     borderRadius: BorderRadius.circular(20.00),
                     border: Border.all(width: 2, color: color),
                   ),
-                  child: RaisedButton(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.00),
+                  child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: color1,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20.00),
+                        ),
                       ),
-                      color: color1,
                       child: Text(
                         "Sandwich",
                         style: TextStyle(
@@ -177,11 +185,13 @@ class Screen2a extends State<Screen2> {
                     borderRadius: BorderRadius.circular(20.00),
                     border: Border.all(width: 2, color: color),
                   ),
-                  child: RaisedButton(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.00),
+                  child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: color1,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20.00),
+                        ),
                       ),
-                      color: color1,
                       child: Text(
                         "Nachos",
                         style: TextStyle(
@@ -208,11 +218,13 @@ class Screen2a extends State<Screen2> {
                     borderRadius: BorderRadius.circular(20.00),
                     border: Border.all(width: 2, color: color),
                   ),
-                  child: RaisedButton(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20.00),
+                  child: ElevatedButton(
+                      style: ElevatedButton.styleFrom(
+                        primary: color1,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20.00),
+                        ),
                       ),
-                      color: color1,
                       child: Text(
                         "Frankies",
                         style: TextStyle(

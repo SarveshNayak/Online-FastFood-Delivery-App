@@ -84,26 +84,20 @@ class Screen8a extends State<Screen8> {
                         child: Row(children: [
                       Container(
                           width: MediaQuery.of(context).size.width * 0.03),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('Veg Frankie',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('Veg Frankie',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.165),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('30/-',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('30/-',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.05),
                       Container(
@@ -141,26 +135,20 @@ class Screen8a extends State<Screen8> {
                         child: Row(children: [
                       Container(
                           width: MediaQuery.of(context).size.width * 0.03),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('Veg Cheese',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('Veg Cheese',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.165),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('45/-',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('45/-',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.05),
                       Container(
@@ -191,15 +179,12 @@ class Screen8a extends State<Screen8> {
                       children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Frankie',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Frankie',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                       ],
                     ),
                     Container(
@@ -208,26 +193,20 @@ class Screen8a extends State<Screen8> {
                         child: Row(children: [
                       Container(
                           width: MediaQuery.of(context).size.width * 0.03),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('Veg Paneer',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('Veg Paneer',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.175),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('45/-',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('45/-',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.05),
                       Container(
@@ -258,15 +237,12 @@ class Screen8a extends State<Screen8> {
                       children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Frankie',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Frankie',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                       ],
                     ),
                     Container(
@@ -275,26 +251,20 @@ class Screen8a extends State<Screen8> {
                         child: Row(children: [
                       Container(
                           width: MediaQuery.of(context).size.width * 0.03),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('Veg',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('Veg',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.415),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('50/-',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('50/-',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.05),
                       Container(
@@ -325,30 +295,24 @@ class Screen8a extends State<Screen8> {
                       children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Manchurian',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Manchurian',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                       ],
                     ),
                     Row(
                       children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Frankie',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Frankie',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                       ],
                     ),
                     Container(
@@ -357,26 +321,20 @@ class Screen8a extends State<Screen8> {
                         child: Row(children: [
                       Container(
                           width: MediaQuery.of(context).size.width * 0.03),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('Veg Chilli',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('Veg Chilli',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.225),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('60/-',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('60/-',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.05),
                       Container(
@@ -407,15 +365,12 @@ class Screen8a extends State<Screen8> {
                       children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Paneer Frankie',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Paneer Frankie',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                       ],
                     ),
                     Container(
@@ -424,15 +379,12 @@ class Screen8a extends State<Screen8> {
                         child: Row(children: [
                       Container(
                           width: MediaQuery.of(context).size.width * 0.03),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('Veg Paneer',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('Veg Paneer',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.175),
                       Align(
@@ -474,15 +426,12 @@ class Screen8a extends State<Screen8> {
                       children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Cheese Frankie',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Cheese Frankie',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                       ],
                     ),
                     Container(
@@ -502,15 +451,12 @@ class Screen8a extends State<Screen8> {
                       ),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.225),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Text('70/-',
-                            style: TextStyle(
-                                color: color,
-                                fontSize: 25,
-                                fontFamily: 'YuseiMagic',
-                                fontWeight: FontWeight.w100)),
-                      ),
+                      Text('70/-',
+                          style: TextStyle(
+                              color: color,
+                              fontSize: 25,
+                              fontFamily: 'YuseiMagic',
+                              fontWeight: FontWeight.w100)),
                       Container(
                           width: MediaQuery.of(context).size.width * 0.05),
                       Container(
@@ -541,15 +487,12 @@ class Screen8a extends State<Screen8> {
                       children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Cheese Frankie',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Cheese Frankie',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                       ],
                     ),
                     Container(

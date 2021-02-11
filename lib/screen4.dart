@@ -84,26 +84,20 @@ class Screen4a extends State<Screen4> {
                           child: Row(children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Veg Burger',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Veg Burger',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.165),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('70/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('70/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -113,9 +107,12 @@ class Screen4a extends State<Screen4> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -139,26 +136,20 @@ class Screen4a extends State<Screen4> {
                           child: Row(children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Veg Cheese',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Veg Cheese',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.15),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('75/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('75/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -168,9 +159,12 @@ class Screen4a extends State<Screen4> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -187,15 +181,12 @@ class Screen4a extends State<Screen4> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Burger',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Burger',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
@@ -204,26 +195,20 @@ class Screen4a extends State<Screen4> {
                           child: Row(children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Veg Double',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Veg Double',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.16),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('80/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('80/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -233,9 +218,12 @@ class Screen4a extends State<Screen4> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -252,15 +240,12 @@ class Screen4a extends State<Screen4> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Cheese Burger',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Cheese Burger',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
@@ -269,26 +254,20 @@ class Screen4a extends State<Screen4> {
                           child: Row(children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Veg Aloo',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Veg Aloo',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.24),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('90/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('90/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -298,9 +277,12 @@ class Screen4a extends State<Screen4> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -317,15 +299,12 @@ class Screen4a extends State<Screen4> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Tikki Burger',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Tikki Burger',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
@@ -334,26 +313,20 @@ class Screen4a extends State<Screen4> {
                           child: Row(children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Veg Cheese',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Veg Cheese',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.12),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('100/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('100/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -363,9 +336,12 @@ class Screen4a extends State<Screen4> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -383,57 +359,46 @@ class Screen4a extends State<Screen4> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Double Tikki',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Double Tikki',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Row(
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Burger',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Burger',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
                           height: MediaQuery.of(context).size.height * 0.02),
                       Container(
                           child: Row(children: [
-                        Container(width: 10),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Veg Paneer',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Container(
+                            width: MediaQuery.of(context).size.width * 0.03),
+                        Text('Veg Paneer',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.14),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('130/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('130/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -443,9 +408,12 @@ class Screen4a extends State<Screen4> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -463,30 +431,24 @@ class Screen4a extends State<Screen4> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Overloaded',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Overloaded',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Row(
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Burger',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Burger',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
@@ -495,26 +457,20 @@ class Screen4a extends State<Screen4> {
                           child: Row(children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Veg Cheese',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Veg Cheese',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.125),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('130/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('130/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -524,9 +480,12 @@ class Screen4a extends State<Screen4> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -543,30 +502,24 @@ class Screen4a extends State<Screen4> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Meltdown',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Meltdown',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Row(
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Burger',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Burger',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
@@ -581,10 +534,13 @@ class Screen4a extends State<Screen4> {
                       padding: EdgeInsets.all(10.00),
                       width: MediaQuery.of(context).size.width * 0.5,
                       height: MediaQuery.of(context).size.height * 0.1,
-                      child: RaisedButton(
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(30.00)),
-                          color: Colors.blueGrey[200],
+                      child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            primary: Colors.blueGrey[200],
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(30.00),
+                            ),
+                          ),
                           child: Text(
                             "CART",
                             style: TextStyle(

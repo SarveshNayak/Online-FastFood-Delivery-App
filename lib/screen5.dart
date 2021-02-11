@@ -108,9 +108,12 @@ class Screen5a extends State<Screen5> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -132,15 +135,12 @@ class Screen5a extends State<Screen5> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Pasta',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Pasta',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
@@ -150,26 +150,20 @@ class Screen5a extends State<Screen5> {
                           child: Row(children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('White Sauce',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('White Sauce',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.12),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('110/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('110/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -179,9 +173,12 @@ class Screen5a extends State<Screen5> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -198,15 +195,12 @@ class Screen5a extends State<Screen5> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Pasta',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Pasta',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
@@ -216,26 +210,20 @@ class Screen5a extends State<Screen5> {
                           child: Row(children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Triple Cheese',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Triple Cheese',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.06),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('130/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('130/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -245,9 +233,12 @@ class Screen5a extends State<Screen5> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -264,15 +255,12 @@ class Screen5a extends State<Screen5> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Pasta',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Pasta',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
@@ -282,26 +270,20 @@ class Screen5a extends State<Screen5> {
                           child: Row(children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Creamy',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Creamy',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.245),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('140/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('140/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -311,9 +293,12 @@ class Screen5a extends State<Screen5> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -330,30 +315,24 @@ class Screen5a extends State<Screen5> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Mushroom',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Mushroom',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Row(
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Pasta',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Pasta',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
@@ -363,26 +342,20 @@ class Screen5a extends State<Screen5> {
                           child: Row(children: [
                         Container(
                             width: MediaQuery.of(context).size.width * 0.03),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Americano',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('Americano',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.16),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('150/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('150/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -392,9 +365,12 @@ class Screen5a extends State<Screen5> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -411,30 +387,24 @@ class Screen5a extends State<Screen5> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('White Sauce',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('White Sauce',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Row(
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Pasta',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Pasta',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                       Container(
@@ -442,27 +412,21 @@ class Screen5a extends State<Screen5> {
                       ),
                       Container(
                           child: Row(children: [
-                        Container(width: 10),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Mac And',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Container(width: MediaQuery.of(context).size.width * 0.03),
+                        Text('Mac And',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.22),
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('150/-',
-                              style: TextStyle(
-                                  color: color,
-                                  fontSize: 25,
-                                  fontFamily: 'YuseiMagic',
-                                  fontWeight: FontWeight.w100)),
-                        ),
+                        Text('150/-',
+                            style: TextStyle(
+                                color: color,
+                                fontSize: 25,
+                                fontFamily: 'YuseiMagic',
+                                fontWeight: FontWeight.w100)),
                         Container(
                             width: MediaQuery.of(context).size.width * 0.07),
                         Container(
@@ -472,9 +436,12 @@ class Screen5a extends State<Screen5> {
                               borderRadius: BorderRadius.circular(15.00),
                               border: Border.all(width: 2, color: color),
                             ),
-                            child: RaisedButton(
-                                shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(15.00),
+                            child: ElevatedButton(
+                                style: ElevatedButton.styleFrom(
+                                  primary: color1,
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(15.00),
+                                  ),
                                 ),
                                 child: Text('+',
                                     style:
@@ -491,15 +458,12 @@ class Screen5a extends State<Screen5> {
                         children: [
                           Container(
                               width: MediaQuery.of(context).size.width * 0.03),
-                          Align(
-                            alignment: Alignment.center,
-                            child: Text('Cheese Pasta',
-                                style: TextStyle(
-                                    color: color,
-                                    fontSize: 25,
-                                    fontFamily: 'YuseiMagic',
-                                    fontWeight: FontWeight.w100)),
-                          ),
+                          Text('Cheese Pasta',
+                              style: TextStyle(
+                                  color: color,
+                                  fontSize: 25,
+                                  fontFamily: 'YuseiMagic',
+                                  fontWeight: FontWeight.w100)),
                         ],
                       ),
                     ])),
@@ -512,10 +476,13 @@ class Screen5a extends State<Screen5> {
                       padding: EdgeInsets.all(10.00),
                       width: MediaQuery.of(context).size.width * 0.5,
                       height: MediaQuery.of(context).size.height * 0.1,
-                      child: RaisedButton(
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(30.00)),
-                          color: Colors.blueGrey[200],
+                      child: ElevatedButton(
+                          style: ElevatedButton.styleFrom(
+                            primary: Colors.blueGrey[200],
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(30.00),
+                            ),
+                          ),
                           child: Text(
                             "CART",
                             style:
