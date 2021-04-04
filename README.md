@@ -7,6 +7,28 @@ A new Flutter project.
 ## Registration Page
 ![Registration Page](https://github.com/SarveshNayak/Online-FastFood-Delivery-App/blob/main/images/Registration.jpg?raw=true)
 
+## Menu Page
+![Registration Page](https://github.com/SarveshNayak/Online-FastFood-Delivery-App/blob/main/images/Registration.jpg?raw=true)
+
+## Freies Menu Page
+![Registration Page](https://github.com/SarveshNayak/Online-FastFood-Delivery-App/blob/main/images/Registration.jpg?raw=true)
+
+## Burger Menu Page
+![Registration Page](https://github.com/SarveshNayak/Online-FastFood-Delivery-App/blob/main/images/Registration.jpg?raw=true)
+
+## Pasta Menu Page
+![Registration Page](https://github.com/SarveshNayak/Online-FastFood-Delivery-App/blob/main/images/Registration.jpg?raw=true)
+
+## Sandwich Menu Page
+![Registration Page](https://github.com/SarveshNayak/Online-FastFood-Delivery-App/blob/main/images/Registration.jpg?raw=true)
+
+## Nachos Menu Page
+![Registration Page](https://github.com/SarveshNayak/Online-FastFood-Delivery-App/blob/main/images/Registration.jpg?raw=true)
+
+## Frankie Menu Page
+![Registration Page](https://github.com/SarveshNayak/Online-FastFood-Delivery-App/blob/main/images/Registration.jpg?raw=true)
+
+
 
 ## Getting Started
 
