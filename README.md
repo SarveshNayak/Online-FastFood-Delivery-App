@@ -1,9 +1,10 @@
 # wdl_project
 
 A new Flutter project.
-#Screenshots
 
-##Registration Page
+# Screenshots
+
+## Registration Page
 ![Registration Page](https://github.com/SarveshNayak/Online-FastFood-Delivery-App/blob/main/images/Registration.jpg?raw=true)
 
 
