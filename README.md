@@ -16,3 +16,7 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 "# wdl-project" 
 
+#Screenshots
+
+##Registration Page
+![Registration Page](https://github.com/SarveshNayak/Online-FastFood-Delivery-App/blob/main/images/Registration.jpg?raw=true)
